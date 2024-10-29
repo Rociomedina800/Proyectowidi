@@ -1,0 +1,85 @@
+/* selector etiqueta header*/
+header{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: blueviolet;
+    padding: 10px 20px;
+}
+/* selector descendente*/
+header .logo img{
+    height: 50px;
+}
+nav ul{
+    list-style: none;
+    display: flex;
+     gap: 20px;
+}
+nav ul li a{
+    color: blueviolet;
+    text-decoration: none;
+    font-size: 18px;
+}
+nav ul li a:hover{
+    text-decoration: underline;
+}
+#inicio{
+    background: url(imagen);
+    color: bisque;
+    height: 100vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+}
+.inicio-contenido h1{
+    text-align: center;
+    margin: 20px auto ;
+    font-size: 3rem; 
+}
+.inicio-contenido p{
+    font-size: 1.5rem;
+}
+#nosotras{
+    padding: 50px 30px;
+text-align: center;
+background-color: blue;
+}
+#nosotras h2{
+    font-size: 2.5rem;
+}
+#nosotras p{
+    max-width: 800px;
+    margin: 0 auto;
+    font-size: 1.2rem;
+}
+.servicios {
+   padding: 50px 20px;
+   text-align: center;
+}
+.servicios h2{
+    font-size: 2.5 rem ;
+}
+.servicios-item {
+    margin-bottom: 25px;
+}
+.servicios-item h3{
+    font-size: 1.8rem;
+}
+.servicios-item p{
+    font-size: 1rem;
+}
+.contacto{
+    padding: 50px 20px;
+    background-color: blue;
+    text-align: center;
+}
+.contacto form {
+    max-width: 650px;
+    margin: 0 auto ;
+}
+.contacto label {
+    display: block;
+    margin-bottom: 10px;
+    font-weight: bold;
+}
