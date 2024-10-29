@@ -82,7 +82,23 @@ header{
     text-align: center;
 }
 
+.secciones img{
+    width: 50px;
+    height: 50px;
+    margin-bottom: 10px;
+}
 
+.secciones h3{
+    color: #0000;
+    font-size: 18px;
+    margin-bottom: 10px;
+}
+
+.secciones p{
+    color: #4682b4;
+    font-size: 13px;
+    
+}
 
 
 
